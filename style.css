@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     border: 2px none;
-    background-image: url(images/goal_post.png);
+    background-color: hsl(240, 61%, 13%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -40,7 +40,6 @@ img{
     width: 15px;  
     height: 60px;        
     background-color: hsl(128, 82%, 37%);
-    display: inline-block;
     float: left;
 }
 .win{
@@ -80,8 +79,11 @@ img{
     font-weight: bold;
     font-family: sans-serif;
 }
-#bottom{
-    background-color: red;
+#red{
+    background-color: hsl(0, 94%, 39%);
+}
+#orange{
+    background-color: hsl(27, 97%, 41%);
 }
 .wins{
     color: hsl(120, 73%, 34%);
@@ -179,21 +181,13 @@ ul{
 }
 p{
     margin-left: 5%;
-    background-color: rgb(52, 51, 51);
     width: 90%;
-    color: hsl(0, 1%, 59%);
+    color: hsl(0, 1%, 84%);
     font-size: 2em;
 }
 a{
     text-decoration: none;
     color: inherit;
-}
-#contact_me{
-    color: rgb(75, 102, 143);
-    font-size: 2em;
-    text-align: center;
-    margin-left: 45%;
-    text-decoration: dashed;
 }
 #bugs{
     width: 30%;
@@ -201,8 +195,12 @@ a{
     background-color: inherit;
 }
 footer{
-    background-color: hsl(0, 1%, 20%);
+    background-color: hsla(240, 45%, 35%, 0.203);
     color: white;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
+}
+#small{
+    width: auto;
+    font-size:xx-large
 }
